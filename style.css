@@ -13,7 +13,6 @@ nav{
 }
 nav h1{
 color: rgb(14, 14, 14);
-/* font-family: Fira Sans; */
 font-size: 32px;
 font-weight: 700;
 }
@@ -36,7 +35,6 @@ padding: 15px 30px 15px 30px;
 }
 .container .title{
 color: rgba(14, 14, 14, 0.5);
-/* font-family: Fira Sans; */
 font-size: 24px;
 font-weight: 500;
 background: rgb(198, 228, 214);
@@ -44,7 +42,6 @@ background: rgb(198, 228, 214);
 
 .container .subtitle{
 color: rgb(14, 14, 14);
-/* font-family: Fira Sans; */
 font-size: 56px;
 font-weight: 700;
 background: rgb(198, 228, 214);
@@ -68,7 +65,6 @@ background: rgb(198, 228, 214);
 }
 .h1{
     color: rgb(14, 14, 14);
-    /* font-family: Fira Sans; */
     font-size: 40px;
     font-weight: 700;
     text-align: left;
@@ -76,7 +72,7 @@ background: rgb(198, 228, 214);
 }
 .p{
     color: rgba(14, 14, 14, 0.7);
-    /* font-family: Fira Sans; */
+
     font-size: 16px;
     font-weight: 400;
 }
@@ -101,7 +97,6 @@ margin-left: 0px;
 
 .p1{
     color: rgba(14, 14, 14, 0.7);
-    /* font-family: Fira Sans; */
     font-size: 16px;
     font-weight: 400;
     background-color: #F5F5F5;
@@ -117,6 +112,24 @@ margin-left: 0px;
     color: aliceblue;
    
 }
+.btn2{
+    padding: 12px 30px 12px 30px;
+    border-radius: 10px;
+    border-radius: 8px;
+    border-radius: 8px;
+    background: rgb(184, 222, 94);
+    color: rgb(255, 255, 255);
+   
+}
+.btn3{
+    padding: 12px 30px 12px 30px;
+    border-radius: 10px;
+    border-radius: 8px;
+    border-radius: 8px;
+    background: rgb(237, 193, 127);
+    color: aliceblue;
+   
+}
 
 /* The vision of future */
 
@@ -129,12 +142,12 @@ margin-left: 0px;
     display: flex;
     max-height: fit-content;
     margin: 20px 0;
+    
 }
-.vision-card-container .vision-card{
+.vision-card{
     box-sizing: border-box;
 border: 1px solid rgba(14, 14, 14, 0.15);
 border-radius: 16px;
-background-color: rgb(255, 255, 255);
 padding: 20px 0;
 margin-left: 0px;
 
@@ -143,14 +156,66 @@ margin-left: 0px;
     box-sizing: border-box;
     border-radius: 16px;
     
-    background-color: rgba(84, 144, 245, 0.2);
+    background-color:  lightpink;
+}
+
+.vision-card .image1{
+    background-color:lightpink;
 }
 .vision-card1 .digital{
-    background-color:rgba(84, 144, 245, 0.2);
+    background-color: lightpink;
 }
 .trans{
-    background-color: rgba(84, 144, 245, 0.2);
+    background-color: lightpink;
 }
+
+.vision-card2{
+    box-sizing: border-box;
+    border-radius: 16px;
+    
+    background-color:rgb(198, 228, 214);
+}
+
+.vision-card2 .image2{
+    background-color:rgb(198, 228, 214);
+}
+.vision-card2 .digital2{
+    background-color:rgb(198, 228, 214);
+}
+.trans2{
+    background-color: rgb(198, 228, 214);
+}
+
+
+.vision-card3{
+    box-sizing: border-box;
+    border-radius: 16px;
+    
+    background-color: rgb(247, 235, 207);
+}
+
+.vision-card3 .image3{
+    background-color: rgb(247, 235, 207);
+}
+.vision-card3 .digital3{
+    background-color:rgb(247, 235, 207);
+}
+.trans3{
+    background-color: rgb(247, 235, 207);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 #target{
     border-radius: 25px;
 }
@@ -184,45 +249,6 @@ font-weight: 400;
 padding-bottom: 20px;
 margin-bottom: 70px;
 }
-
-/* table  */
-
-.table-container {
-    padding: 30px 0;
-    padding-right: 20px;
-    width: 100%;
-    margin: 20px auto;
-    background: white;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.table {
-    width: 100%;
-    border-collapse: collapse;
-    border: 1px solid #ccc; 
-    background-color: white;
-}
-.table th, .table td {
-    padding: 15px;
-    text-align: left;
-    border: 1px solid #ccc;
-    background-color: white;
-}
-.table th {
-    background-color: #d9f1d8;
-    font-size: 18px;
-}
-.select {
-    padding: 8px 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    background-color: #e7f6e5;
-    font-size: 16px;
-    cursor: pointer;
-}
 .news{
     display: flex;
     margin: 0;
@@ -233,16 +259,27 @@ margin-bottom: 70px;
 }
 .news img{
     border-radius: 10px;
+    margin: 0;
+    margin: 15px 0;
    
+}
+.news p{
+    padding: 10px 0;
 }
 .recent-img, .right-img, .launch, .img{
     background-color: white;
 }
 
-
+#donate{
+    position: relative;
+}
 .donate-container {
     text-align: center;
-    padding: 40px;   
+    padding: 40px;  
+    background-color: #F5F5F5;
+}
+.donate-container p{
+    background-color: #F5F5F5;
 }
 .donate-container .donate{
     margin-bottom: 20px;
@@ -251,16 +288,12 @@ margin-bottom: 70px;
     display: flex;
     margin: 0;
     justify-content:center;
-    /* align-items: center; */
-    /* background-color: aqua; */
-    
 }
 .taka-t{
 border: 1px solid rgba(14, 14, 14, 0.15);
 border-radius: 16px;
 padding: 25px 30px;
 background-color:white;
-/* background: rgb(255, 255, 255); */
 margin-bottom: 30px;
 margin: 5px 30px 30px 30px ;
 
@@ -268,15 +301,18 @@ margin: 5px 30px 30px 30px ;
 .color{
     background-color: aqua;
 }
-.button .done-button{
+
+  
+  .done-button {
+    margin: 20px;
+    position: relative;
+    left: 40%;
     padding: 12px 30px 12px 30px;
     border-radius: 10px;
     background: rgb(0, 106, 80);
     color: aliceblue;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
+  }
+
 .text{
     display: block;
     width: 70%;
@@ -291,121 +327,75 @@ margin: 5px 30px 30px 30px ;
     
 }
 
-
-/* Footer seciton */
-
 footer {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #F5F5F5;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    margin-top: 50px;
 }
 
-.subscription-container {
+.subs-container {
     text-align: center;
     background: #DFF1E0;
     padding: 40px;
     border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 800px;
+    max-width: 1000px;
     width: 100%;
+    margin-bottom: 40px;
 }
 
-.subscription-container h1 {
-    font-size: 2rem;
+.subs-container h1 {
+    font-size: 35px;
     margin-bottom: 10px;
     color: #333;
+    background: #DFF1E0;
 }
 
-.subscription-container p {
-    font-size: 1rem;
+.subs-container p {
+    font-size: 16px;
     color: #555;
     margin-bottom: 20px;
+    background: #DFF1E0;
 }
 
-.subscription-form {
+.subs-form {
     display: flex;
     justify-content: center;
     align-items: stretch;
+    background: #DFF1E0;
 }
 
 .email-input {
     padding: 10px;
-    font-size: 1rem;
+    font-size: 16px;
     border: 2px solid #ccc;
     border-radius: 5px 0 0 5px;
     flex: 1;
     max-width: 500px;
 }
-
-.email-input:focus {
-    outline: none;
-    border-color: #4CAF50;
-}
-
-.subscribe-button {
+.subs-button {
     background-color: #4CAF50;
     color: white;
     border: none;
     padding: 10px 20px;
-    font-size: 1rem;
+    font-size: 16px;
     border-radius: 0 5px 5px 0;
     cursor: pointer;
-    transition: background-color 0.3s;
 }
 
-.subscribe-button:hover {
+.subs-button:hover {
     background-color: #45a049;
 }
 
-.footer-note {
-    font-size: 0.9rem;
+.note {
+    font-size: 14px;
     color: #777;
     margin-top: 20px;
 }
-/* 
 
-footer{
-    margin: 0;
-    padding: 0;
-    background-color: #F5F5F5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.hover:hover{
+    background-color: #91d094;
 }
-.subscribe{
-    text-align: center;
-            background: #DFF1E0;
-            padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            max-width: 600px;
-            width: 100%;
-}
-.form{
-    display: flex;
-            justify-content: center;
-            align-items: stretch;
-}
-.email{
-    padding: 10px;
-    border: 2px solid #ccc;
-    border-radius: 5px 0 0 5px;
-    flex: 1;
-    max-width: 400px;
-    font-size: 1rem;
-}
-.btn1{
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1rem;
-    border-radius: 0 5px 5px 0;
-    cursor: pointer;
-    transition: background-color 0.3s;
-} */
