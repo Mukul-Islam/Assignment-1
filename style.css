@@ -60,6 +60,8 @@ background: rgb(198, 228, 214);
     background: rgb(0, 106, 80);
     color: aliceblue;
 }
+
+
 #pillars{
     margin-top: 80px;
     margin-bottom: 60px;
@@ -120,7 +122,9 @@ margin-left: 0px;
 
 
 
-
+#vision{
+    margin-bottom: 50px;
+}
 .vision-card-container{
     display: flex;
     max-height: fit-content;
@@ -130,7 +134,7 @@ margin-left: 0px;
     box-sizing: border-box;
 border: 1px solid rgba(14, 14, 14, 0.15);
 border-radius: 16px;
-/* background-color: rgb(255, 255, 255); */
+background-color: rgb(255, 255, 255);
 padding: 20px 0;
 margin-left: 0px;
 
@@ -146,6 +150,9 @@ margin-left: 0px;
 }
 .trans{
     background-color: rgba(84, 144, 245, 0.2);
+}
+#target{
+    border-radius: 25px;
 }
 .dr-muhammad{
     margin: 0;
@@ -231,7 +238,174 @@ margin-bottom: 70px;
 .recent-img, .right-img, .launch, .img{
     background-color: white;
 }
-.taka{
-    border: 1px solid black;
-    background-color: white;
+
+
+.donate-container {
+    text-align: center;
+    padding: 40px;   
 }
+.donate-container .donate{
+    margin-bottom: 20px;
+}
+.container-taka{
+    display: flex;
+    margin: 0;
+    justify-content:center;
+    /* align-items: center; */
+    /* background-color: aqua; */
+    
+}
+.taka-t{
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+padding: 25px 30px;
+background-color:white;
+/* background: rgb(255, 255, 255); */
+margin-bottom: 30px;
+margin: 5px 30px 30px 30px ;
+
+}
+.color{
+    background-color: aqua;
+}
+.button .done-button{
+    padding: 12px 30px 12px 30px;
+    border-radius: 10px;
+    background: rgb(0, 106, 80);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.text{
+    display: block;
+    width: 70%;
+    font-size: 1rem;
+    margin: 0 auto 10px auto;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-color: white;
+    
+    
+}
+
+
+/* Footer seciton */
+
+footer {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.subscription-container {
+    text-align: center;
+    background: #DFF1E0;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+}
+
+.subscription-container h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.subscription-container p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.subscription-form {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.email-input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    flex: 1;
+    max-width: 500px;
+}
+
+.email-input:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
+
+.subscribe-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.subscribe-button:hover {
+    background-color: #45a049;
+}
+
+.footer-note {
+    font-size: 0.9rem;
+    color: #777;
+    margin-top: 20px;
+}
+/* 
+
+footer{
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subscribe{
+    text-align: center;
+            background: #DFF1E0;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 100%;
+}
+.form{
+    display: flex;
+            justify-content: center;
+            align-items: stretch;
+}
+.email{
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    flex: 1;
+    max-width: 400px;
+    font-size: 1rem;
+}
+.btn1{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+} */
