@@ -1,11 +1,14 @@
 *{
     margin: 0 30px;
     padding: 0;
+    background-color: #F5F5F5;
 }
 nav{
     margin: 20px 0;
     display: flex;
     justify-content: space-between;
+    
+    
 }
 nav h1{
 color: rgb(14, 14, 14);
@@ -23,20 +26,19 @@ padding: 15px 30px 15px 30px;
     display: flex;
     border-radius: 24px;
     background: rgb(198, 228, 214);
-    /* max-height: ; */
-    padding: 20px 0;
-    
-
+    padding: 20px 0;  
 }
 #hero .container{
     flex-direction: column;
     margin-top: 50px;
+    background: rgb(198, 228, 214);
 }
 .container .title{
 color: rgba(14, 14, 14, 0.5);
 font-family: Fira Sans;
 font-size: 24px;
 font-weight: 500;
+background: rgb(198, 228, 214);
 }
 
 .container .subtitle{
@@ -44,9 +46,11 @@ color: rgb(14, 14, 14);
 font-family: Fira Sans;
 font-size: 56px;
 font-weight: 700;
-line-height: 67px;
-letter-spacing: 0%;
-text-align: left;
+background: rgb(198, 228, 214);
+}
+#hero img{
+    background-color: rgb(198, 228, 214);
+    
 }
 .btn{
     padding: 12px 30px 12px 30px;
@@ -54,4 +58,119 @@ text-align: left;
     border-radius: 8px;
     background: rgb(0, 106, 80);
     color: aliceblue;
+}
+#pillars{
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+.h1{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+    margin: 0;
+}
+.p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+}
+.card-container{
+    display: flex;
+    max-height: fit-content;
+    margin: 20px 0;
+}
+.card-container .card{
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background-color: rgb(255, 255, 255);
+padding: 20px 0;
+margin-left: 0px;
+
+}
+.card h1,p,img{
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+
+.p1{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #F5F5F5;
+    margin: 20px 0;
+}
+
+.btn1{
+    padding: 12px 30px 12px 30px;
+    border-radius: 10px;
+    border-radius: 8px;
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    color: aliceblue;
+   
+}
+
+/* The vision of future */
+
+
+
+
+.vision-card-container{
+    display: flex;
+    max-height: fit-content;
+    margin: 20px 0;
+}
+.vision-card-container .vision-card{
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+/* background-color: rgb(255, 255, 255); */
+padding: 20px 0;
+margin-left: 0px;
+
+}
+.vision-card1{
+    box-sizing: border-box;
+    border-radius: 16px;
+    
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.vision-card1 .digital{
+    background-color:rgba(84, 144, 245, 0.2);
+}
+.trans{
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.dr-muhammad{
+    margin: 0;
+    flex-direction: column;
+}
+.dr{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+border-radius: 8px;
+background-image: url("./assets/quote-bg.png");
+background-repeat: no-repeat;
+padding: 20px 20px;
+margin:0;
+}
+.sir{
+    background-color: white;
+    padding: 0 20px;
+    margin: 0;
+}
+.chief{
+    margin: 0px;
+    padding: 0 20px;
+    color: rgba(14, 14, 14, 0.6);
+font-family: Fira Sans;
+font-size:12px;
+font-weight: 400;
 }
