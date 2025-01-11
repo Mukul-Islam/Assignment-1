@@ -2,6 +2,7 @@
     margin: 0 30px;
     padding: 0;
     background-color: #F5F5F5;
+    font-family: Fira Sans;
 }
 nav{
     margin: 20px 0;
@@ -12,7 +13,7 @@ nav{
 }
 nav h1{
 color: rgb(14, 14, 14);
-font-family: Fira Sans;
+/* font-family: Fira Sans; */
 font-size: 32px;
 font-weight: 700;
 }
@@ -35,7 +36,7 @@ padding: 15px 30px 15px 30px;
 }
 .container .title{
 color: rgba(14, 14, 14, 0.5);
-font-family: Fira Sans;
+/* font-family: Fira Sans; */
 font-size: 24px;
 font-weight: 500;
 background: rgb(198, 228, 214);
@@ -43,7 +44,7 @@ background: rgb(198, 228, 214);
 
 .container .subtitle{
 color: rgb(14, 14, 14);
-font-family: Fira Sans;
+/* font-family: Fira Sans; */
 font-size: 56px;
 font-weight: 700;
 background: rgb(198, 228, 214);
@@ -65,7 +66,7 @@ background: rgb(198, 228, 214);
 }
 .h1{
     color: rgb(14, 14, 14);
-    font-family: Fira Sans;
+    /* font-family: Fira Sans; */
     font-size: 40px;
     font-weight: 700;
     text-align: left;
@@ -73,7 +74,7 @@ background: rgb(198, 228, 214);
 }
 .p{
     color: rgba(14, 14, 14, 0.7);
-    font-family: Fira Sans;
+    /* font-family: Fira Sans; */
     font-size: 16px;
     font-weight: 400;
 }
@@ -98,7 +99,7 @@ margin-left: 0px;
 
 .p1{
     color: rgba(14, 14, 14, 0.7);
-    font-family: Fira Sans;
+    /* font-family: Fira Sans; */
     font-size: 16px;
     font-weight: 400;
     background-color: #F5F5F5;
@@ -170,7 +171,67 @@ margin:0;
     margin: 0px;
     padding: 0 20px;
     color: rgba(14, 14, 14, 0.6);
-font-family: Fira Sans;
+/* font-family: Fira Sans; */
 font-size:12px;
 font-weight: 400;
+padding-bottom: 20px;
+margin-bottom: 70px;
+}
+
+/* table  */
+
+.table-container {
+    padding: 30px 0;
+    padding-right: 20px;
+    width: 100%;
+    margin: 20px auto;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc; 
+    background-color: white;
+}
+.table th, .table td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+.table th {
+    background-color: #d9f1d8;
+    font-size: 18px;
+}
+.select {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #e7f6e5;
+    font-size: 16px;
+    cursor: pointer;
+}
+.news{
+    display: flex;
+    margin: 0;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.news img{
+    border-radius: 10px;
+   
+}
+.recent-img, .right-img, .launch, .img{
+    background-color: white;
+}
+.taka{
+    border: 1px solid black;
+    background-color: white;
 }
